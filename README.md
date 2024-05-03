@@ -19,7 +19,7 @@ the endpoint link should be like (depending on the your configuration) this **ht
 
 **you should have inputs like this in json format**
 
-**for examplat**
+**for example**
 ```python
 {
     "CreditScore": 10,
