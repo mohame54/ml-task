@@ -12,7 +12,7 @@ def predict():
     #print(req.is_json)
     if req.is_json:
         req = req.json
-        data = preprocess_feats(scaler, req)
+        data = preprocess_feats(req)
         will_exit, prob = predict_model(model, data)
         return jsonify({"Will exit":will_exit, "prob":prob}), 200
     else:
