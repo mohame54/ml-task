@@ -21,25 +21,20 @@ the endpoint link should be like (depending on the your configuration) this **ht
 
 **for example**
 ```python
-{
-    "CreditScore": 10,
-    "Age": 10,
-    "Tenure": 10,
-    "Balance": 10,
-    "NumOfProducts": 10,
-    "HasCrCard": 1,
-    "IsActiveMember": 1,
-    "EstimatedSalary": 1000,
-    "Satisfaction Score": 4,
-    "Point Earned": 10,
-    "Geography_France": 1,
-    "Geography_Germany": 0,
-    "Geography_Spain": 0,
-    "Gender_Female": 1,
-    "Gender_Male": 0,
-    "Card Type_DIAMOND": 1,
-    "Card Type_GOLD": 0,
-    "Card Type_PLATINUM": 0,
-    "Card Type_SILVER": 0
+FEATS = {
+    'Age': 80,
+    'Balance':1000 ,
+    'HasCrCard': 1,
+    'IsActiveMember': 0,
+    'EstimatedSalary': 1000,
+    'Geography_France': 1,
+    'Geography_Germany': 0,
+    'Geography_Spain': 0,
+    'Gender_Female': 1,
+    'Gender_Male': 1,
+    'Card Type_DIAMOND': 0,
+    'Card Type_GOLD': 1,
+    'Card Type_PLATINUM': 0,
+    'Card Type_SILVER': 0,
 }
 ```
